@@ -32,7 +32,7 @@ video{
 }
 /*for responsive input */
 input:checked+.navs{
-    left:-10px;
+    left:5px;
 }
 .res{
     display: none;
@@ -59,6 +59,7 @@ input:checked+.navs{
     left: 50%;
     align-items: center;
     transform: translateX(-50%);
+    z-index: 1000;
 }
 /*portfolio logo*/
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
@@ -890,6 +891,8 @@ footer h2,footer h1{
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
+        z-index: 1001;
+    
     }
    
     .icon{
@@ -902,5 +905,112 @@ footer h2,footer h1{
      .abc:hover .navs{
         top:0%;
        
+    }
+    .content{
+        width:100%;
+        z-index: 5;
+     
+    }
+   
+    
+    footer>div {
+    
+    flex-direction: column;
+    }
+    .me>img {
+        width:300px;
+    }
+    .pro{
+        margin-top:60px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .pro>div{
+        width:100%;
+    }
+    .sec{
+        margin-top: 150px;
+    }
+    .sec>div{
+        height: fit-content;
+    }
+   .project{
+    flex-direction: column;
+    gap:0px;
+   
+   }
+   .con{
+    width: 100%;
+    height: fit-content;
+   }
+   .fb{
+    width:250px;
+   }
+    .conte{
+        width:280px;
+    }
+    .sharp > div {
+        width:260px;
+    }
+    .lef{
+        width: 100%;
+        padding:0px;
+    }
+    .rgh{
+        width: 100%;
+        padding:0px;
+    }
+     .box{
+        height:100px;
+        width:100px;
+     }
+    .fadein{
+        flex-direction: column;
+        animation: none;
+    }
+    .name{
+        font-size:50px;
+    }
+    .but{
+        flex-direction: column;
+        align-items: center;
+    }
+    .but>button{
+        width:200px;
+    }
+    .sc2{
+        padding: 200px 15px 15px 20px;
+    }
+    .medet{
+        height: fit-content;
+    }
+    .par{
+        font-size: 16px;
+    }
+    .ht{
+        margin-bottom: 30px;
+    }
+    .project{
+        padding:8px;
+    }
+    .sharp{
+        padding:10px;
+    }
+    .sharp>div{
+        clip-path: none;
+        margin-top: 40px;
+    }
+    .about>div{
+        width:100%;
+    }
+    .lef p{
+        font-size: 15px;
+    }
+    .rgh>div {
+        clip-path: none;
+        padding:5px;
+    }
+    .rgh>div>div {
+        font-size: 16px;
     }
 }
