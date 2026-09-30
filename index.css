@@ -917,8 +917,12 @@ footer h2,footer h1{
     
     flex-direction: column;
     }
+    .me{
+        height:300px;
+    }
     .me>img {
         width:300px;
+        height:300px;
     }
     .pro{
         margin-top:60px;
